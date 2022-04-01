@@ -14,4 +14,5 @@ Forams dataset is avaliable at http://endlessforams.org.
   python visualise_embeddings.py --model_path=output/full_data_rotation_augmented/best_model_state.pkl --dataset=Forams --batch_size=1 --embedding_size=128 --current_fold=0 --folds_file=datasets/OpenSetCows2020/splits/all_35_classes.json --save_path=output/fold_0
 
 6. To obtain test set performance, run command such as:
+
 python test_save.py --model_path=output/augmentations/ALL_AUG_ep10/best_model_state.pkl --dataset=Forams --batch_size=16 --embedding_size=128 --current_fold=0 --folds_file=datasets/OpenSetCows2020/splits/all_35_classes.json --save_path=output/full_data_rotation_augmented
