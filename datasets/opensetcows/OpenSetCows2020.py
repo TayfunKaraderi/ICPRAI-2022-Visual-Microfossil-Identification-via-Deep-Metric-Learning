@@ -176,7 +176,7 @@ class OpenSetCows2020(data.Dataset):
 		train_list = [v for k,v in self.__sorted_files['train'].items()]
 		test_list = [v for k,v in self.__sorted_files['test'].items()]
 		print('****hello*****', len(train_list[0]))
-		self.__files['train'] = np.array([item for sublist in train_list for item in sublist])[random_list]
+		self.__files['train'] = np.array([item for sublist in train_list for item in sublist])#[random_list]
 		print('****hello2*****', len(self.__files['train']))
         
 
