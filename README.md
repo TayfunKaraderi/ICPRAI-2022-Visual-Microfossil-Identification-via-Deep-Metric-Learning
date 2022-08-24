@@ -19,6 +19,8 @@ python test_save.py --model_path=output/augmentations/ALL_AUG_ep10/best_model_st
 
 This work was submitted and presented at the 3rd International Conference on Pattern Recognition and Artificial Intelligence (ICPRAI). If you do use this work as part of your research, please cite Visual Microfossil Identification via Deep Metric Learning.
 
+# Cite
+'''
 @inproceedings{mstennett2022visual,
       title={Visual Microfossil Identification via Deep Metric Learning}, 
       author={Karaderi, T and Burghardt, T and Hsiang, AY and Ramaer, J and Schmid, DN},
@@ -29,3 +31,4 @@ This work was submitted and presented at the 3rd International Conference on Pat
       Volume = {13363},
       page = {34-46}
 }
+'''
