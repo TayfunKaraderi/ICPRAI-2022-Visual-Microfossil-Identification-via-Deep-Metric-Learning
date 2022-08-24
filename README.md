@@ -16,3 +16,16 @@ Forams dataset is avaliable at http://endlessforams.org.
 6. To obtain test set performance, run command such as:
 
 python test_save.py --model_path=output/augmentations/ALL_AUG_ep10/best_model_state.pkl --dataset=Forams --batch_size=16 --embedding_size=128 --current_fold=0 --folds_file=datasets/OpenSetCows2020/splits/all_35_classes.json --save_path=output/full_data_rotation_augmented
+
+This work was submitted and presented at the 3rd International Conference on Pattern Recognition and Artificial Intelligence (ICPRAI). If you do use this work as part of your research, please cite Visual Microfossil Identification via Deep Metric Learning.
+
+@inproceedings{mstennett2022visual,
+      title={Visual Microfossil Identification via Deep Metric Learning}, 
+      author={Karaderi, T and Burghardt, T and Hsiang, AY and Ramaer, J and Schmid, DN},
+      year={2022},
+      month=June,
+      month_numeric = {6},
+      booktitle={3rd International Conference on Pattern Recognition and Artificial Intelligence (ICPRAI), Lecture Notes in Computer Science (LNCS)},
+      Volume = {13363},
+      page = {34-46}
+}
